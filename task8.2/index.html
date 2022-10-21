@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body> 
+        <h1>HTML Forms</h1>
+        <form>
+            <label for="username"><em>Enter username</em></label>
+            <br>
+            <input type="text" id="username" name="username" placeholder="about me"required>
+            <br><br>
+            <label for="Mobile number"><strong>Enter mobile number</strong></label>
+            <br>
+            <input type="number" id="number" name="number" placeholder="about me">
+            <br><br>
+            <label for="email"><small>Enter email</small></label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="password">Enter password:</label>
+            <input type="password" id="password" name="password" placeholder="about me">
+            <br><br>
+            <label for="Gender">Gender:</label><br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="Other">Other<br>
+
+            <p>Select your age:</p>
+            <input type="radio" name="age" value="0-25" id="Option1">
+            <label for="Option1">0-25</label><br>
+            <input type="radio" name="age" value="25-50" id="Option2">
+            <label for="Option2">25-50</label>
+
+            <br><br>
+            <label for="question">Security question:</label>
+            <select name="question" id="question">
+                <option value="q1">Name of your preliminary school</option>
+                <option value="q2">What is your favourite colour</option>
+                <option value="q3">what is your favourite food item</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="answer">Security question answer:</label>
+            <input type="text" id="answer" name="answer">
+
+             <br><br>
+             <label for="bio">Your bio:</label><br>
+             <textarea name="bio" id="bio" cols="30" rows="10" placeholder="About you...."></textarea>
+             <br><br>
+            <input type="submit" value="Submit the form">
+        </form>
+    </body>
+</html>
